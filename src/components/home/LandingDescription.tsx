@@ -13,9 +13,9 @@ const mont = Montserrat({
 })
 
 const LandingDescription = () => {
-    const {description,heading,image,title} = landingData
-    console.log(mont.className)
-  return (
+    const { description, heading, image, title } = landingData
+
+  return (  
     <Bounded className=" lg:max-w-6xl py-12 w-full  md:place-items-center  md:grid lg:grid-cols-2 ">
         <section className="lg:max-w-lg flex flex-col gap-7 w-full   ">
             <p className="text-sm text-red-500 font-semibold">{heading}</p>
@@ -25,7 +25,7 @@ const LandingDescription = () => {
         </section>
         <section className="mt-12 lg:mt-0" >
             <div className="overflow-hidden rounded-full flex items-center justify-center">
-                <Image width={500} height={500} src={image.url} style={{width: 'auto', height: 'auto'}}  className="overflow-hidden rounded-full" alt={image.url} />
+                <Image width={500} height={500}  src={image.url} style={{width: 'auto', height: 'auto'}}  className="overflow-hidden rounded-full" alt={image.url} />
             </div>
         </section>
     </Bounded>

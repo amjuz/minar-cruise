@@ -1,16 +1,14 @@
 import Image from "next/image"
 import Link from "next/link"
-import logo from "@/assets/logo.png"
-import {  } from 'next/font/google'
 import Bounded from "../elements/Bounded"
 
 const Navbar = () => {
   return (
-    <div className="sticky  py-4 top-0 w-full  bg-white">
+    <div className="sticky  py-4 top-0 w-full  bg-white z-50">
         <Bounded  as={'nav'} className="w-full flex justify-between">
             <div className="">
                 <Link href={'/'}>
-                    <Image src={logo} alt="ship logo" className="w-40"/>
+                    <Image src={'/assets/logo.png'} alt="ship logo" width={150} height={100}/>
                 </Link>            
             </div>
             <div className="flex gap-5 font-sans font-medium justify-start max-md:hidden">
