@@ -7,7 +7,7 @@ import SubscribeCard from "./SubscribeCard";
 const InfoCard = () => {
   return (
     <>
-      <div className="grid grid-cols-4 pt-20">
+      <div className="flex max-sm:flex-col justify-between pt-20">
         <ContactCard />
         <CompanyInfoCard />
         <ExploreCard/>

@@ -26,7 +26,9 @@ const Facilities = () => {
             <ul className="list-disc list-inside  md:grid-cols-2 grid leading-10 text-sm">
               {description.map((item, i) => (
                 <>
-                  <li className="" key={i}>{item}</li>
+                  <li className="" key={i}>
+                    {item}
+                  </li>
                 </>
               ))}
             </ul>
@@ -36,7 +38,7 @@ const Facilities = () => {
       <Image
         src={"/assets/Wave.svg"}
         alt=""
-        className="w-full max-h-[200px] rotate-180"
+        className="w-full max-h-20 rotate-180"
         width={1000}
         height={400}
       />

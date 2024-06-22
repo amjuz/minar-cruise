@@ -4,7 +4,7 @@ import { galleryImageUrl } from "@/constants/home/landingData";
 
 const Gallery = () => {
   return (
-    <section className="relative  h-full w-full flex justify-center items-center py-20 border">
+    <section className="relative  h-full w-full flex justify-center items-center py-20 ">
       <Bounded className=" w-full space-y-20">
         <article className=" text-center space-y-5">
           <h5 className="text-red-500 font-bold text-4xl">GALLERY</h5>

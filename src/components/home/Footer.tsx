@@ -6,7 +6,7 @@ import SocialCard from "./SocialCard";
 const Footer = () => {
   return (
     <footer className="text-white bg-[#313041] ">
-      <Bounded>
+      <Bounded className="flex flex-col justify-evenly">
         <InfoCard />
         <SocialCard />
         <CopyRight/>

@@ -15,7 +15,7 @@ const Services = () => {
             <p className="font-medium text-justify">{item}</p>
           </>
         ))}
-        <div className="flex gap-3">
+        <div className="flex gap-3 max-sm:flex-col">
           <Phone />
           {contact.map((item) => (
             <>

@@ -6,28 +6,28 @@ const ContactCard = () => {
   const { contact, email, address, image } = footer;
   return (
     <>
-      <section className="space-y-8">
+      <section className="flex flex-col space-y-8  max-w-[25%]">
+        <Image src={image} alt="logo" width={150} height={150} className="" />
+        <div className=" flex gap-2  max-w-fit">
+          <Phone color="red" className="" />
+          {contact.map((item, i) => (
+            <>
+              <p className="font-light text-slate-400 " key={i}>
+                {item}
+              </p>
+            </>
+          ))}
+        </div>
+        <div className=" flex gap-2 max-w-fit">
+          <Mail color="red" />
+          <p className="font-light text-slate-400">{email}</p>
+        </div>
+        <div className="flex gap-2">
           <div className="">
-            <Image src={image} alt="logo" width={150} height={150} />
+            <MapPin className="" color="red" />
           </div>
-          <div className="flex gap-2">
-            <Phone color="red" />
-            {contact.map((item, i) => (
-              <>
-                <p className="font-light text-slate-400" key={i}>
-                  {item}
-                </p>
-              </>
-            ))}
-          </div>
-          <div className="flex gap-2">
-            <Mail color="red" />
-            <p className="font-light text-slate-400">{email}</p>
-          </div>
-          <div className="flex gap-2">
-            <MapPin size={64} color="red" />
-            <p className="font-light text-slate-400">{address}</p>
-          </div>
+          <p className="font-light text-slate-400">{address}</p>
+        </div>
       </section>
     </>
   );
