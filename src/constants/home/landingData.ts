@@ -63,3 +63,58 @@ export const facilities = {
         "Safety measures - life saving equipment and firefighting equipment with international standard as per IRS class"
     ]
 }
+
+export const entertainment = {
+    image: {
+        url: "/assets/nightPhoto.jpg"
+    },
+}
+
+export const services = {
+    heading: "Minar Cruise Event Services",
+    subHeading: "MINAR CRUISE BOAT SERVICES FOR YOUR EVENTS",
+    description: [
+        "Are you looking for an unforgettable and exciting experience for your special event or organization’s next corporate retreat?",
+        "If you’re ready to explore all the exciting possibilities of charter cruising, contact us at:"
+    ],
+    contact: [
+        "+91 8089021666",
+        "+91 8089031666"
+    ],
+    events: [
+        {
+            image: "https://cochincruiseline.com/wp-content/uploads/2023/10/cruise-enjoying-1-180x180.jpg",
+            title: "Family Gathering",
+            description: "Planning a family reunion? Minar Cochin Cruise offer a fun-filled vacation with your loved ones."
+        },{
+            image: "https://cochincruiseline.com/wp-content/uploads/2023/07/Sunset-With-Dinner-Cruise2.jpg",
+            title: "Celebration Events",
+            description: "Celebrate your Wedding, Anniversaries, Birthdays and other memorable events with the best celebration cruise."
+        },{
+            image: "https://cochincruiseline.com/wp-content/uploads/2022/10/corporate02.jpg",
+            title: "Corporate Events",
+            description: "We have the perfect space for corporate meetings and your business needs on our luxury cruise." 
+        }
+    ],
+}
+
+export const galleryImageUrl = [
+    "https://cochincruiseline.com/wp-content/uploads/2023/07/outer-view-minar-3.jpg",
+    "https://cochincruiseline.com/wp-content/uploads/2023/10/corporate03.jpg",
+    "https://cochincruiseline.com/wp-content/uploads/2023/09/lunch-cruise-minar.jpg",
+    "https://cochincruiseline.com/wp-content/uploads/2022/10/breakfast-cruise-2.jpg",
+    "https://cochincruiseline.com/wp-content/uploads/2023/10/birthday-celebration1.jpg",
+    "https://cochincruiseline.com/wp-content/uploads/2023/07/Sunset-With-Dinner-Cruise1.jpg",
+    "https://cochincruiseline.com/wp-content/uploads/2023/10/corporate-events.jpg",
+    "https://cochincruiseline.com/wp-content/uploads/2021/09/minar-dinner-cruise1.jpg",
+]
+
+export const footer = {
+  image: "https://cochincruiseline.com/wp-content/uploads/2021/08/logo-light.png",
+  contact : [
+    "+91 8089021666",
+    "8089061444"
+  ],
+  email: "info@cochincruiseline.com",
+  address: "GF, 40/6185, Swapnil Enclave, Highcourt junction, Marine Drive, Ernakulam, Kerala, India, 682031"
+}

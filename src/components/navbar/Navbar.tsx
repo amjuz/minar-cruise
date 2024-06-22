@@ -8,7 +8,7 @@ const Navbar = () => {
         <Bounded  as={'nav'} className="w-full flex justify-between">
             <div className="">
                 <Link href={'/'}>
-                    <Image src={'/assets/logo.png'} alt="ship logo" width={150} height={100}/>
+                    <Image src={'/assets/logo.png'} alt="ship logo" width={150} height={100} priority={true}/>
                 </Link>            
             </div>
             <div className="flex gap-5 font-sans font-medium justify-start max-md:hidden">
