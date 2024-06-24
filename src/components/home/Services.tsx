@@ -24,7 +24,7 @@ const Services = () => {
           ))}
         </div>
       </article>
-      <article className="basis-[70%] flex space-x-8 mx-4 max-md:flex-col">
+      <article className="basis-[70%] flex">
         {events.map((item, i) => (
           <>
             <div className="space-y-4" key={i}>
